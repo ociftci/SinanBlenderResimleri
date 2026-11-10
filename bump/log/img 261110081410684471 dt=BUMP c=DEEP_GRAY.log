@@ -1,0 +1,76 @@
+2026-11-10 08-14-10: Generating image...
+2026-11-10 08-14-10: Opening blender file: /home/ociftci/ociftciPHD/DatasetGenerator/scene/surface.blend
+2026-11-10 08-14-10: Successfully opened blender file.
+2026-11-10 08-14-10: 2 camera(s) found: Left, Right
+2026-11-10 08-14-10: Primary camera: Left
+2026-11-10 08-14-10: Setting surface color to deep gray (0.1,0.1,0.1,1.0)...
+2026-11-10 08-14-10: Setting surface color to deep gray complete.
+2026-11-10 08-14-10: Subdividing (100)...
+2026-11-10 08-14-10: Subdividing complete.
+2026-11-10 08-14-10: Subdividing (2)...
+2026-11-10 08-14-10: Subdividing complete.
+2026-11-10 08-14-10: Creating texture...
+2026-11-10 08-14-10: Creating texture complete.
+2026-11-10 08-14-10: Applying subdivision surface modifier (3)...
+2026-11-10 08-14-10: Applying subdivision surface modifier complete.
+2026-11-10 08-14-10: Applying surface shape...
+2026-11-10 08-14-11: Vertex count: 5880625
+2026-11-10 08-14-11: Pixels per unit: 297.3
+2026-11-10 08-14-11: Plane corners in pixels: [[146.0, -21.0], [146.0, 533.0], [742.0, -50.0], [742.0, 562.0]]
+2026-11-10 08-14-11: Curvature shape: DOME
+2026-11-10 08-14-11: Curvature angle: 19.8, height: 0.06565
+2026-11-10 08-14-11: Dome anisotropy: 0.45
+2026-11-10 08-14-11: Character line: STEP, angle: 299.0, width: 0.21 tile, max slope: 32.6
+2026-11-10 08-14-11: Applying surface shape complete.
+2026-11-10 08-14-11: Rendering defect-free image from camera "Left"...
+2026-11-10 08-14-14: Rendering defect-free image from camera "Left" complete.
+2026-11-10 08-14-14: Rendering defect-free image from camera "Right"...
+2026-11-10 08-14-16: Rendering defect-free image from camera "Right" complete.
+2026-11-10 08-14-16: Generating defect 1 of 1...
+2026-11-10 08-14-16: Generating bump...
+2026-11-10 08-14-16: X-translation: -0.0023309955756112824
+2026-11-10 08-14-16: Y-translation: 0.0063052177653635
+2026-11-10 08-14-16: Z-translation: 0.001364310293317224
+2026-11-10 08-14-16: Falloff type: ROOT
+2026-11-10 08-14-16: Falloff size: 0.0035242361596811347
+2026-11-10 08-14-16: Path length: 1
+2026-11-10 08-14-16: Random vertex: (-0.447245717048645,0.741966187953949,0.16642065346240997)
+2026-11-10 08-14-16: Rendered pixel coordinates of random vertex for camera "Left": 296.0,30.0
+2026-11-10 08-14-16: Defect location is suitable.
+2026-11-10 08-14-16: Rendered pixel coordinates of random vertex for camera "Right": -69.0,20.0
+2026-11-10 08-14-16: Defect location is out of image borders.
+2026-11-10 08-14-16: Random vertex: (-0.34914714097976685,-0.21449017524719238,0.004897645208984613)
+2026-11-10 08-14-16: Rendered pixel coordinates of random vertex for camera "Left": 327.0,318.0
+2026-11-10 08-14-16: Defect location is suitable.
+2026-11-10 08-14-16: Rendered pixel coordinates of random vertex for camera "Right": -23.0,320.0
+2026-11-10 08-14-16: Defect location is out of image borders.
+2026-11-10 08-14-16: Random vertex: (-0.8044999241828918,-0.3043927848339081,-0.03345972299575806)
+2026-11-10 08-14-16: Rendered pixel coordinates of random vertex for camera "Left": 201.0,341.0
+2026-11-10 08-14-16: Defect location is suitable.
+2026-11-10 08-14-16: Rendered pixel coordinates of random vertex for camera "Right": -161.0,347.0
+2026-11-10 08-14-16: Defect location is out of image borders.
+2026-11-10 08-14-16: Random vertex: (0.5387991070747375,0.7624107003211975,0.19523821771144867)
+2026-11-10 08-14-16: Rendered pixel coordinates of random vertex for camera "Left": 615.0,9.0
+2026-11-10 08-14-16: Defect location is out of image borders.
+2026-11-10 08-14-16: Random vertex: (-0.22760100662708282,-0.8233530521392822,-0.01950109377503395)
+2026-11-10 08-14-16: Rendered pixel coordinates of random vertex for camera "Left": 362.0,491.0
+2026-11-10 08-14-16: Defect location is suitable.
+2026-11-10 08-14-16: Rendered pixel coordinates of random vertex for camera "Right": 15.0,497.0
+2026-11-10 08-14-16: Defect location is suitable.
+2026-11-10 08-14-22: Selecting 1 vertices on the path...
+2026-11-10 08-14-23: Selecting vertices complete.
+2026-11-10 08-14-23: Switching to edit mode...
+2026-11-10 08-14-25: Switching to edit mode complete.
+2026-11-10 08-14-25: Translating vertices...
+2026-11-10 08-14-27: Translating vertices complete.
+2026-11-10 08-14-28: Generating bump complete.
+2026-11-10 08-14-28: Generating defect 1 of 1 complete.
+2026-11-10 08-14-28: Rendering defective image from camera "Left"...
+2026-11-10 08-14-30: Rendering defective image from camera "Left" complete.
+2026-11-10 08-14-30: Rendering defective image from camera "Right"...
+2026-11-10 08-14-33: Rendering defective image from camera "Right" complete.
+2026-11-10 08-14-33: Generating difference mask for camera "Left"...
+2026-11-10 08-14-33: Generating difference mask for camera "Left" complete.
+2026-11-10 08-14-33: Generating difference mask for camera "Right"...
+2026-11-10 08-14-33: Generating difference mask for camera "Right" complete.
+2026-11-10 08-14-33: Generating image complete. Time taken: 23 seconds

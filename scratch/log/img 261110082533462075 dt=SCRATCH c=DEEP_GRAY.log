@@ -1,0 +1,98 @@
+2026-11-10 08-25-33: Generating image...
+2026-11-10 08-25-33: Opening blender file: /home/ociftci/ociftciPHD/DatasetGenerator/scene/surface.blend
+2026-11-10 08-25-33: Successfully opened blender file.
+2026-11-10 08-25-33: 2 camera(s) found: Left, Right
+2026-11-10 08-25-33: Primary camera: Left
+2026-11-10 08-25-33: Setting surface color to deep gray (0.1,0.1,0.1,1.0)...
+2026-11-10 08-25-33: Setting surface color to deep gray complete.
+2026-11-10 08-25-33: Subdividing (100)...
+2026-11-10 08-25-33: Subdividing complete.
+2026-11-10 08-25-33: Subdividing (2)...
+2026-11-10 08-25-33: Subdividing complete.
+2026-11-10 08-25-33: Creating texture...
+2026-11-10 08-25-33: Creating texture complete.
+2026-11-10 08-25-33: Applying subdivision surface modifier (3)...
+2026-11-10 08-25-33: Applying subdivision surface modifier complete.
+2026-11-10 08-25-33: Applying surface shape...
+2026-11-10 08-25-33: Vertex count: 5880625
+2026-11-10 08-25-33: Pixels per unit: 297.3
+2026-11-10 08-25-33: Plane corners in pixels: [[146.0, -21.0], [146.0, 533.0], [742.0, -50.0], [742.0, 562.0]]
+2026-11-10 08-25-33: Curvature shape: CYLINDER
+2026-11-10 08-25-33: Curvature angle: 53.7, height: 0.05114
+2026-11-10 08-25-34: Character line: RIDGE, angle: 236.2, radius: 0.07 tile, slope: 2.1, sign: 1
+2026-11-10 08-25-34: Applying surface shape complete.
+2026-11-10 08-25-34: Rendering defect-free image from camera "Left"...
+2026-11-10 08-25-37: Rendering defect-free image from camera "Left" complete.
+2026-11-10 08-25-37: Rendering defect-free image from camera "Right"...
+2026-11-10 08-25-39: Rendering defect-free image from camera "Right" complete.
+2026-11-10 08-25-39: Generating defect 1 of 1...
+2026-11-10 08-25-39: Generating scratch...
+2026-11-10 08-25-39: X-translation: 0.0006970848191671594
+2026-11-10 08-25-39: Y-translation: -0.0008808531633006269
+2026-11-10 08-25-39: Z-translation: -0.0030897620999110944
+2026-11-10 08-25-39: Falloff type: SMOOTH
+2026-11-10 08-25-39: Falloff size: 0.0020903403409202968
+2026-11-10 08-25-39: Path length: 11
+2026-11-10 08-25-39: Random vertex: (0.202961266040802,-0.01326787006109953,-0.02438846230506897)
+2026-11-10 08-25-39: Rendered pixel coordinates of random vertex for camera "Left": 488.0,260.0
+2026-11-10 08-25-39: Defect location is suitable.
+2026-11-10 08-25-39: Rendered pixel coordinates of random vertex for camera "Right": 142.0,260.0
+2026-11-10 08-25-39: Defect location is suitable.
+2026-11-10 08-25-45: Initial angle: 0.7321669069663583 (41.950073668319924) degrees
+2026-11-10 08-25-45: Angle change: 0.15561032938908792 (8.915815122635296) degrees
+2026-11-10 08-25-45: New angle: 0.8877772363554463 (50.86588879095522) degrees
+2026-11-10 08-25-45: Determining next vertex...
+2026-11-10 08-25-45: Next vertex: 0.20458704233169556,-0.011618200689554214,-0.02442861907184124
+2026-11-10 08-25-45: Angle change: -0.04253524086699867 (-2.4370897822514044) degrees
+2026-11-10 08-25-45: New angle: 0.8452419954884476 (48.42879900870382) degrees
+2026-11-10 08-25-45: Determining next vertex...
+2026-11-10 08-25-45: Next vertex: 0.2062014490365982,-0.009952693246304989,-0.024482153356075287
+2026-11-10 08-25-45: Angle change: 0.08110916829167439 (4.647213022929264) degrees
+2026-11-10 08-25-45: New angle: 0.926351163780122 (53.07601203163308) degrees
+2026-11-10 08-25-45: Determining next vertex...
+2026-11-10 08-25-45: Next vertex: 0.20701195299625397,-0.009109189733862877,-0.024515733122825623
+2026-11-10 08-25-45: Angle change: -0.0648548948392636 (-3.715911755054588) degrees
+2026-11-10 08-25-45: New angle: 0.8614962689408583 (49.360100276578486) degrees
+2026-11-10 08-25-45: Determining next vertex...
+2026-11-10 08-25-45: Next vertex: 0.2078273892402649,-0.00826035812497139,-0.024552449584007263
+2026-11-10 08-25-45: Angle change: -0.26836489455766965 (-15.376175827627828) degrees
+2026-11-10 08-25-45: New angle: 0.5931313743831886 (33.98392444895066) degrees
+2026-11-10 08-25-45: Determining next vertex...
+2026-11-10 08-25-45: Next vertex: 0.209472194314003,-0.0074028195813298225,-0.024625327438116074
+2026-11-10 08-25-45: Angle change: -0.24355470874130314 (-13.954656891414688) degrees
+2026-11-10 08-25-45: New angle: 0.3495766656418855 (20.029267557535974) degrees
+2026-11-10 08-25-45: Determining next vertex...
+2026-11-10 08-25-45: Next vertex: 0.21112680435180664,-0.006559405010193586,-0.02469048462808132
+2026-11-10 08-25-45: Angle change: -0.20020448424101478 (-11.470871986603548) degrees
+2026-11-10 08-25-45: New angle: 0.14937218140087072 (8.558395570932426) degrees
+2026-11-10 08-25-45: Determining next vertex...
+2026-11-10 08-25-45: Next vertex: 0.21195678412914276,-0.006555404048413038,-0.024719810113310814
+2026-11-10 08-25-45: Angle change: -0.19975956639963388 (-11.44538007206235) degrees
+2026-11-10 08-25-45: New angle: -0.05038738499876316 (-2.886984501129926) degrees
+2026-11-10 08-25-45: Determining next vertex...
+2026-11-10 08-25-45: Next vertex: 0.2136240303516388,-0.00654948502779007,-0.024776436388492584
+2026-11-10 08-25-45: Angle change: 0.054628406388371464 (3.1299771275791892) degrees
+2026-11-10 08-25-45: New angle: 0.0042410213896083016 (0.24299262644926325) degrees
+2026-11-10 08-25-45: Determining next vertex...
+2026-11-10 08-25-45: Next vertex: 0.21446183323860168,-0.006548245903104544,-0.024804502725601196
+2026-11-10 08-25-45: Angle change: -0.2702759891185249 (-15.48567348021524) degrees
+2026-11-10 08-25-45: New angle: -0.2660349677289166 (-15.242680853765977) degrees
+2026-11-10 08-25-45: Determining next vertex...
+2026-11-10 08-25-45: Next vertex: 0.21615177392959595,-0.007350504398345947,-0.024861861020326614
+2026-11-10 08-25-45: Selecting 11 vertices on the path...
+2026-11-10 08-25-47: Selecting vertices complete.
+2026-11-10 08-25-47: Switching to edit mode...
+2026-11-10 08-25-48: Switching to edit mode complete.
+2026-11-10 08-25-48: Translating vertices...
+2026-11-10 08-25-51: Translating vertices complete.
+2026-11-10 08-25-51: Generating scratch complete.
+2026-11-10 08-25-51: Generating defect 1 of 1 complete.
+2026-11-10 08-25-51: Rendering defective image from camera "Left"...
+2026-11-10 08-25-54: Rendering defective image from camera "Left" complete.
+2026-11-10 08-25-54: Rendering defective image from camera "Right"...
+2026-11-10 08-25-57: Rendering defective image from camera "Right" complete.
+2026-11-10 08-25-57: Generating difference mask for camera "Left"...
+2026-11-10 08-25-57: Generating difference mask for camera "Left" complete.
+2026-11-10 08-25-57: Generating difference mask for camera "Right"...
+2026-11-10 08-25-57: Generating difference mask for camera "Right" complete.
+2026-11-10 08-25-57: Generating image complete. Time taken: 23 seconds
