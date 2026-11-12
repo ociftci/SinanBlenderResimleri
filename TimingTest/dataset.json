@@ -1,0 +1,227 @@
+{
+  "name": "TimingTest",
+  "created_at": "2026-11-12T09:23:55+00:00",
+  "generator": {
+    "version": "2.0",
+    "blender": "5.2.2 LTS",
+    "python": "3.13.18",
+    "opencv": "4.14.0",
+    "numpy": "2.5.4",
+    "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43"
+  },
+  "blender_file": {
+    "file_name": "plain_surface_metallic_dualcam.blend",
+    "source_path": "/home/ociftci/ociftciPHD/PHDWithSILYAS/plain_surface_metallic_dualcam.blend",
+    "sha256": "1658a267e3ff6cb1ec5ec9a40253a8a7bd06719ad748efb7002a6ae0abda8154"
+  },
+  "render": {
+    "engine": "CYCLES",
+    "image_width": 2048,
+    "image_height": 1024,
+    "image_format": "PNG",
+    "max_samples": 64
+  },
+  "cameras": {
+    "Cam_Left": {
+      "folder": "Cam_Left",
+      "is_primary": false,
+      "intrinsics": {
+        "K": [
+          [
+            2844.4444444444443,
+            0.0,
+            1023.5
+          ],
+          [
+            0.0,
+            2844.4444444444443,
+            511.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "fx": 2844.4444444444443,
+        "fy": 2844.4444444444443,
+        "cx": 1023.5,
+        "cy": 511.5,
+        "image_width": 2048,
+        "image_height": 1024,
+        "lens_mm": 50.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start_m": 0.10000000149011612,
+        "clip_end_m": 1000.0
+      },
+      "extrinsics": {
+        "position_m": [
+          -0.30000001192092896,
+          0.0,
+          3.799999952316284
+        ],
+        "opencv_world_to_camera": {
+          "R": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "t": [
+            0.30000001192092896,
+            0.0,
+            3.799999952316284
+          ]
+        },
+        "blender_camera_to_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.30000001192092896
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "Cam_Right": {
+      "folder": "Cam_Right",
+      "is_primary": true,
+      "intrinsics": {
+        "K": [
+          [
+            2844.4444444444443,
+            0.0,
+            1023.5
+          ],
+          [
+            0.0,
+            2844.4444444444443,
+            511.5
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "fx": 2844.4444444444443,
+        "fy": 2844.4444444444443,
+        "cx": 1023.5,
+        "cy": 511.5,
+        "image_width": 2048,
+        "image_height": 1024,
+        "lens_mm": 50.0,
+        "sensor_width_mm": 36.0,
+        "sensor_height_mm": 24.0,
+        "sensor_fit": "AUTO",
+        "shift_x": 0.0,
+        "shift_y": 0.0,
+        "clip_start_m": 0.10000000149011612,
+        "clip_end_m": 1000.0
+      },
+      "extrinsics": {
+        "position_m": [
+          0.30000001192092896,
+          0.0,
+          3.799999952316284
+        ],
+        "opencv_world_to_camera": {
+          "R": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0
+            ]
+          ],
+          "t": [
+            -0.30000001192092896,
+            0.0,
+            3.799999952316284
+          ]
+        },
+        "blender_camera_to_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.30000001192092896
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            3.799999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    }
+  },
+  "conventions": {
+    "units": "Meters (Blender units). World coordinates are Blender world coordinates (z up).",
+    "pixel_coordinates": "x to the right, y down, (0, 0) = center of the top-left pixel (OpenCV).",
+    "intrinsics": "K is the OpenCV camera matrix for the image size above.",
+    "extrinsics": "opencv_world_to_camera: x_camera = R @ x_world + t, camera x right, y down, z forward (OpenCV). blender_camera_to_world: Blender camera matrix (camera looks along -z, y up).",
+    "depth_exr": "float32, single channel (Y). Distance along the camera viewing axis in meters (z in OpenCV camera coordinates, not the distance to the camera center). 0 = no surface.",
+    "depth_png": "16-bit, normalized per image: 65535 = nearest, 1 = farthest, 0 = no surface. The range in meters is in the sample metadata (depth_range_m), so the PNG can be converted to meters.",
+    "normal_png": "16-bit RGB, camera-space unit normals encoded as (n + 1) / 2 in Blender/OpenGL camera axes: x right, y UP, z TOWARDS the camera. For OpenCV camera axes, negate y and z. 0 = no surface.",
+    "mask_image_diff": "8-bit, 255 = defect. Image-difference mask: made from the difference of the defective and reference images (threshold + morphology), so it depends on lighting and noise.",
+    "mask_depth_diff": "8-bit, 255 = defect. Depth-difference mask: pixels where the visible surface moved by more than 1 micrometer along the viewing axis (or appeared/disappeared) because of the defects, from the depth of the reference and the defective render. Independent of lighting and noise. Each pixel is judged at a single point (the first render sample), so edges are not anti-aliased. mask_depth_diff_pixel_count = 0 in the sample metadata means the defect is not visible from that camera.",
+    "reference": "The same surface rendered before the defects were added (same camera, same lighting). Saved only when image-difference masks are created."
+  },
+  "stereo_baseline_m": 0.6000000238418579
+}
